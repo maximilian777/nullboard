@@ -1,0 +1,26 @@
+#alist {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 25px 15px 250px;
+    width: 300px;
+    height: 450px;
+    float: left;
+    box-shadow: 0px 0px 5px;
+}
+#acontent {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 500px;
+    height: 600px;
+    float: left;
+    box-shadow: 0px 0px 5px;
+    border: 1px solid;
+}
+#acontent p {
+    padding: 5px 0px 5px 5px;
+    margin: 0;
+    border-bottom: 1px solid;
+}

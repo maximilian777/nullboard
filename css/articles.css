@@ -1,0 +1,78 @@
+.articlelength {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 250px;
+    width: 900px;
+    height: 520px;
+    float: left;
+    box-shadow: 0px 0px 5px;
+}
+.standardimgsize {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px 10px 0px 10px;
+}
+.stylingboxhead {
+    border-bottom: 1px solid;
+    box-shadow: 0px 0px 5px;
+    height: 40px;
+    background-color: black;
+}
+.boxcontent p {
+    padding: 5px 5px 5px 10px;
+    margin: 0;
+    height: 400px;
+}
+.readmore {
+    background-color: black;
+    width: 900px;
+    height: 25px;
+    color: black;
+    display: inline-block
+}
+.readmore p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+    color: #f5cbd6;
+    height: 25px;
+}
+.readmore p a {
+    text-decoration: none;
+    color: #f5cbd6;
+}
+.readmore p a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.gradient {
+    position: relative;
+    top: 5px;
+    width: 900px;
+    height: 40px;
+}
+.undernav {
+    background-color: black;
+    width: 900px;
+    height: 50px;
+    border: 1px solid #f5cbd6;
+    box-shadow: 0px 0px 5px;
+    margin: 20px 0px 25px 250px;
+    position: relative;
+    top: 1620px;
+}
+.undernav h2 {
+    height: 45px;
+    position: absolute;
+    margin: 10px 0px 0px 5px;
+    font-size: 25px;
+}
+.undernav h2 a {
+    text-decoration: none;
+    color: #f5cbd6;
+}
+.undernav h2 a:hover {
+    color: white;
+    text-decoration: underline;
+}

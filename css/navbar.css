@@ -1,0 +1,43 @@
+.container-scrolling {
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 5px 0;
+    letter-spacing: 3px;
+}
+.scrolling {
+    font-weight: bold;
+    animation: marquee 2s linear infinite;
+    display: inline-block;
+    padding-right: 10px;
+}
+  @keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+  }
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align:  center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #111;
+    color: #f5cbd6;
+}
+.scroll-bar {
+    overflow-y: auto;
+}
